@@ -99,7 +99,7 @@ impl Default for Config {
             initial_markdown: "".to_owned(),
             highlight_theme: "github".to_owned(),
             custom_css: "/vendor/github-markdown-css/github-markdown.css".to_owned(),
-            title: "Markdown Composer",
+            title: "Markdown Composer".to_owned(),
         }
     }
 }
