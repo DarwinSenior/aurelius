@@ -49,4 +49,6 @@ Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any
 additional terms or conditions.
 
+The favcon is created by Dalpat Prajapati from noun-project
+
 [vim-markdown-composer]: https://github.com/euclio/vim-markdown-composer
