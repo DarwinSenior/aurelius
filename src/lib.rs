@@ -85,6 +85,11 @@ pub struct Config {
     ///
     /// Defaults to the github styles.
     pub custom_css: String,
+
+    /// Custom Title for the page
+    ///
+    /// Defaults to Markdown Composer
+    pub title: String,
 }
 
 impl Default for Config {
@@ -94,6 +99,7 @@ impl Default for Config {
             initial_markdown: "".to_owned(),
             highlight_theme: "github".to_owned(),
             custom_css: "/vendor/github-markdown-css/github-markdown.css".to_owned(),
+            title: "Markdown Composer",
         }
     }
 }

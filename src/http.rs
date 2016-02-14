@@ -78,6 +78,7 @@ impl Server {
         data.insert("initial_markdown", markdown::to_html(&config.initial_markdown));
         data.insert("highlight_theme", config.highlight_theme.to_owned());
         data.insert("custom_css", config.custom_css.to_owned());
+        data.insert("title", config.title.to_owned());
 
         // We need to figure out the crate root, so we can pass absolute paths into the nickel
         // APIs.
